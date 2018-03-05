@@ -1,6 +1,8 @@
 # Elasticsearch-Cookbook
 
-This documentation describes how to generate cookbook `chef generate cookbook elasticsearch`
+This documentation describes how to generate a cookbook for Elasticsearch.
+
+ `chef generate cookbook elasticsearch`
 
 ## Useage
 
