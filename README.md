@@ -1,8 +1,18 @@
-# Elasticsearch-Cookbook
+# Elasticsearch Cookbook
 
 This documentation describes how to generate a cookbook for Elasticsearch.
 
  `chef generate cookbook elasticsearch`
+
+## Requirements
+
+Install these programs:
+
+[Chef DK - 2.4.17](https://downloads.chef.io/chefdk) (2.4.17)
+
+[Virtual Box](https://www.virtualbox.org/wiki/Downloads) (5.2.6)
+
+[Vagrant](https://www.vagrantup.com/downloads.html)
 
 ## Useage
 
@@ -32,3 +42,10 @@ To Create, converge and verify sequentially:
 To login to the virtual machine:
 
 		kitchen login
+		
+		
+Access elasticsearch on VM:
+
+`kitchen login`
+
+`cd /etc/elasticsearch`

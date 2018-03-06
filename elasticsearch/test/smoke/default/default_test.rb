@@ -13,7 +13,8 @@ unless os.windows?
 end
 
 describe package('elasticsearch') do 
-	it {should be_installed}
+    it {should be_installed}
+    its ('version') {should match /6\../}
 end
 
 describe service('elasticsearch') do 
